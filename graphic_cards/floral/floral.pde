@@ -33,7 +33,7 @@ void draw() {
   for ( int p = 0; p < cves; p ++) {
     float x = 100 * ( cos(p * TWO_PI / cves ) + ( sin ( cos ( p * coef ))));
     float y = 100 * ( sin (p * TWO_PI /cves )  + ( cos ( sin ( p * coef ))));
-    println("x , y = ", x, "  ", y);
+   // println("x , y = ", x, "  ", y);
     curveVertex(x, y);
   }
   endShape(CLOSE);
